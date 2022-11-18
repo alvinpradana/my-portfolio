@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/global.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Nav Section -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-light py-3" style="min-height: 12vh;">
+            <div class="container">
+                <div class="navbar-brand d-flex align-items-center">
+                    <img src="./assets/img/logo.png" alt="Logo" width="100">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+                        <li class="nav-item fw-bold mx-3">
+                            <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold mx-3">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item fw-bold mx-3">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item fw-bold mx-3">
+                            <a class="nav-link" href="#blogs">Blogs</a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-dark fw-bold px-4 py-2 rounded-0">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home-section" class="container my-5" style="padding-top: 15vh;">
+        <div class="row flex-sm-column-reverse flex-md-row align-items-center justify-content-between" style="min-height: 73vh;">
+            <div class="col-sm-12 col-md-6">
+                <h5 class="bg-dark text-white fw-bold w-25 p-3">Hello, I'm</h5>
+                <h1 class="py-2 fw-bold">Alvin Novian Perdana</h1>
+                <h4 class="">Software Engineer</h4>
+                <div class="v-stack d-flex flex-column gap-2 my-5">
+                    <a href="" class="link-dark text-decoration-none"><i data-feather="mail" class="me-3"></i>alvinpradana14@gmail.com</a>
+                    <a href="" class="link-dark text-decoration-none"><i data-feather="phone" class="me-3"></i>+62 81328944121</a>
+                    <a href="" class="link-dark text-decoration-none"><i data-feather="map-pin" class="me-3"></i>Sleman, D.I Yogyakarta</a>
+                </div>
+                <div class="">
+                    <button class="btn btn-outline-dark border-0 me-3"><i data-feather="facebook"></i></button>
+                    <button class="btn btn-outline-dark border-0 me-3"><i data-feather="twitter"></i></button>
+                    <button class="btn btn-outline-dark border-0 me-3"><i data-feather="github"></i></button>
+                    <button class="btn btn-outline-dark border-0 me-3"><i data-feather="dribbble"></i></button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex justify-content-md-end justify-content-sm-center align-items-center my-4">
+                <img src="./assets/img/human.png" alt="Human" width="300">
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="container my-5" style="padding-top: 15vh;">
+        <div class="row d-flex justify-content-center" style="min-height: 60vh;">
+            <div class="col-md-6">
+                <img src="./assets/img/about.png" alt="About" width="500" class="img-fluid mb-5">
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <h3 class="fw-semibold">About me</h3>
+                </div>
+                <div class="row">
+                    <p class="my-4">Hello, my name is Alvin Novian Perdana. i'm currently join as a IT Trainee at PT. Bank Central Asia. I have experience in web application development.</p>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">PHP</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">JavaScript</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">Java</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">Laravel</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">Vue</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">React</div>
+                        <div class="badge bg-dark py-2 px-4 me-2 mb-2">Springboot</div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-dark mt-5"><i data-feather="download" class="me-2"></i>DOWNLOAD MY CV</button>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5" style="min-height: 88vh; padding-top: 15vh;">
+        <div class="row">
+            <h3 class="text-center fw-semibold">What i do</h3>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="mb-3 border-bottom border-1 pb-2">
+                                <div class="fw-semibold"><i data-feather="figma" class="text-warning me-2"></i>UI Design</div>
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure excepturi expedita quas ab! Incidunt cumque neque assumenda error voluptates ut sed, aspernatur recusandae magnam? Facilis reiciendis molestiae est magni quia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="mb-3 border-bottom border-1 pb-2">
+                                <div class="fw-semibold"><i data-feather="code" class="text-primary me-2"></i>Front End Development</div>
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure excepturi expedita quas ab! Incidunt cumque neque assumenda error voluptates ut sed, aspernatur recusandae magnam? Facilis reiciendis molestiae est magni quia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="mb-3 border-bottom border-1 pb-2">
+                                <div class="fw-semibold"><i data-feather="terminal" class="text-success me-2"></i>Back End Development</div>
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure excepturi expedita quas ab! Incidunt cumque neque assumenda error voluptates ut sed, aspernatur recusandae magnam? Facilis reiciendis molestiae est magni quia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experiences Section -->
+    <section id="blogs" class="container my-5" style="min-height: 88vh; padding-top: 15vh;">
+        <div class="row">
+            <h3 class="text-center fw-semibold">See my posts</h3>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                    <img src="./assets/img/node.png" alt="Node" class="image-fluid p-3">
+                    <div class="card-body">
+                        <h5 class="card-title">First Post</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quidem natus odit unde maxime obcaecati placeat nihil debitis fugit nesciunt.</p>
+                        <a href="" class="card-link">Read more ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                    <img src="./assets/img/node.png" alt="Node" class="image-fluid p-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Second Post</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quidem natus odit unde maxime obcaecati placeat nihil debitis fugit nesciunt.</p>
+                        <a href="" class="card-link">Read more ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                    <img src="./assets/img/node.png" alt="Node" class="image-fluid p-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Third Post</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quidem natus odit unde maxime obcaecati placeat nihil debitis fugit nesciunt.</p>
+                        <a href="" class="card-link">Read more ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                    <img src="./assets/img/node.png" alt="Node" class="image-fluid p-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fourth Post</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quidem natus odit unde maxime obcaecati placeat nihil debitis fugit nesciunt.</p>
+                        <a href="" class="card-link">Read more ...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5" style="min-height: 85vh; padding-top: 15vh;">
+        <div class="row">
+            <h3 class="text-center fw-semibold">Contact me</h3>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="mb-3">
+                                <label for="firstname" class="form-label">First Name</label>
+                                <input type="text" name="firstname" id="firstname" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="mb-3">
+                                <label for="lastname" class="form-label">Last Name</label>
+                                <input type="text" name="lastname" id="lastname" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="text" name="email" id="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6 col-lg-6 d-none d-lg-block">
+                <img src="./assets/img/contact.png" alt="Contact" width="420" class="img-fluid d-flex ms-auto">
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer style="height: 12vh;" class="container border-top d-flex align-items-center">
+        <div class="col-sm-12 col-md-6">
+            <h5 class="fs-6 text-secondary">All right reserved Alvin Novian Perdana @2022</h5>
+        </div>
+        <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <div class="d-flex flex-row justify-content-end">
+                <button class="btn btn-outline-dark border-0 rounded-circle me-3"><i data-feather="facebook" width="16px"></i></button>
+                <button class="btn btn-outline-dark border-0 rounded-circle me-3"><i data-feather="twitter" width="16px"></i></button>
+                <button class="btn btn-outline-dark border-0 rounded-circle me-3"><i data-feather="github" width="16px"></i></button>
+                <button class="btn btn-outline-dark border-0 rounded-circle"><i data-feather="dribbble" width="16px"></i></button>
+            </div>
+        </div>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
